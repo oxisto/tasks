@@ -3,6 +3,7 @@ env:
   - SWIFT_BRANCH=swift-5.0.1-release
   - SWIFT_VERSION=swift-5.0.1-RELEASE
 language: swift
+osx_image: xcode10.2
 sudo: required
 install:
 - wget https://swift.org/builds/$SWIFT_BRANCH/xcode/$SWIFT_VERSION/$SWIFT_VERSION-osx.pkg
